@@ -1,8 +1,12 @@
+import os
+os.system('pip install --no-cache-dir scikit-learn')
+
 import streamlit as st
 import numpy as np
 import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
+
 
 st.write("""
 This app predicts the Iris Flower type-
